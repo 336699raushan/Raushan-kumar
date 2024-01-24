@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Robot, sans-serif, arial;
+}
+.home1::after{
+    width: 0;
+    height: 2px;
+    background-color: white;
+    display: block;
+   content: '';
+  
+}
+.home1:hover::after{
+    width: 100%;
+    transition: all 1s;
+}
+.a{
+    background-color: orangered;
+}
+.b{
+    background-color: black;
+}
+.main{
+    background-color: black;
+}
+.home{
+    margin-top: 20px;
+}
+.main1{
+    color:orangered ;
+}
+.card-body img{
+    min-width: 50%;
+    max-height: 200px;
+}
+.ram{
+    background-image: url(./banner-footer.jpg);
+    width: 100%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imageWrapper {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid white;
+    
+}
+
+.imageZoom {
+	transition: 0.3s;
+}
+
+.imageZoom:hover {
+	transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.w3-green{
+    background-color: red;
+  }
+.w3-light-grey{
+    background-color: gainsboro;
+  }
+
+.raushan{
+    color: orangered;
+}
+
+.Edugaon{
+    color: orangered;
+}
+.hh{
+   padding-left: 15px;
+    font-size: 18px;
+}
+.hh1{
+    padding-left: 15px;
+    font-size: 18px;
+}
+.hh2{
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.end{
+    background-color: #383838;
+   
+}
+.end1{
+    color: orange;
+    font-size: 30px;
+}
+.end2{
+    color: orange;
+}
+.end3{
+    font-size: 23px;
+}
+.theend{
+    background-color: orangered;
+}
+.last{
+    font-size: 18px;
+}
+
+
